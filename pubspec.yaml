@@ -1,0 +1,46 @@
+name: airtrip
+description: "Air Trip"
+displayName: Air Trip
+flutter_native_splash:
+  background_image: assets/images/background.png
+  image: assets/images/icon.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  firebase_core: ^2.27.1
+  go_router: ^13.2.0
+  flutter_screenutil: ^5.9.0
+  provider: ^6.1.2
+  smooth_page_indicator: ^1.1.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.10
+  google_fonts: ^6.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+
