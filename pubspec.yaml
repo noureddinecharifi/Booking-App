@@ -31,6 +31,7 @@ dependencies:
   flutter_launcher_icons: ^0.13.1
   flutter_native_splash: ^2.3.10
   google_fonts: ^6.2.0
+  firebase_auth: ^4.17.9
 
 dev_dependencies:
   flutter_test:
@@ -43,4 +44,5 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/
+    - assets/icons/
 
