@@ -57,7 +57,7 @@ class OnboardingScreen extends StatelessWidget {
                 top: 145,
                 left: 15,
                 child: InkWell(
-                  onTap: () => context.go('/signin'),
+                  onTap: () => context.go('/authpage'),
                   child: Container(
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),

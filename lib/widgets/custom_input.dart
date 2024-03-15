@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 class CustomInput extends StatelessWidget {
-  final controller;
+  final TextEditingController controller ;
   final bool obscure;
   final String hintText;
-  final IconData prefixIcon; // Renamed parameter to prefixIcon
+  final IconData prefixIcon;
 
   final String? Function(String?)? validator;
 
@@ -13,7 +13,7 @@ class CustomInput extends StatelessWidget {
       required this.obscure,
       required this.hintText,
       required this.validator,
-      this.controller,
+      required this.controller,
       required this.prefixIcon});
 
   @override
